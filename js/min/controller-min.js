@@ -1,0 +1,1 @@
+angular.module("RoutingApp",["ngRoute"]).config(["$routeProvider",function(e){e.when("/",{templateUrl:"home.html"}).when("/about",{templateUrl:"about.html"}).otherwise({redirectTo:"/"})}]);

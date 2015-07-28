@@ -1,0 +1,334 @@
+#dp-menu {
+    display: none;
+    position: fixed;
+    top: 56px;
+    right: 20px;
+    z-index: 301;
+    background: #fff;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    width: 100px;
+}
+
+#dp-menu ul {
+    list-style: none;
+    -webkit-padding-start: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#dp-menu li {
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.pad-50 {
+    text-align:center;
+}
+
+.logo-sh, .green {
+        position:relative;
+        z-index:99999;
+}
+
+.content {
+    padding:0;
+    margin:0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content-inner {
+    background:rgba(0,0,0,0.7);
+    margin:0 auto;
+    max-width:650px;
+    width:70%;
+    padding:20px;
+}
+
+.content-body {
+    text-align:left !important;
+}
+
+#dp-menu a,
+#dp-menu a:hover,
+#dp-menu a:focus,
+#dp-menu a:active {
+    color: #82b98f;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+#dp-menu a:hover {
+    border-bottom: 1px solid #82b98f;
+}
+
+.hero {
+    min-height:650px;
+    height:100vh;
+    width:100%;
+    text-align:center;
+    background-image:url('/img/summerhousebg.jpg');
+    background-attachment:fixed;
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#surfaces {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100vh;
+    width: 100%;
+    background: url('/img/kitchen2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#solar {
+    padding:0;
+    margin:0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100vh;
+    width: 100%;
+    background: url('/img/solar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.btn-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 300;
+    width: 100px;
+    background: #82b98f;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    transition: all ease-in-out 0.25s;
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.btn-contact {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999999;
+    width: 100px;
+    background: #82b98f;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    transition: all ease-in-out 0.25s;
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.btn-contact:hover,
+.btn-contact:active,
+.btn-contact:focus {
+    background: #79b487;
+    transition: all ease-in-out 0.25s;
+    color: #fff;
+    border-bottom:0 !important;
+}
+
+.btn-menu:hover,
+.btn-menu:active,
+.btn-menu:focus {
+    background: #79b487;
+    transition: all ease-in-out 0.25s;
+    color: #fff;
+}
+
+div.green {
+    color:#333333;
+    font-style:italic;
+    background:rgba(256,256,256,0.5);
+    /* border:2px solid #569966; */
+    max-width:550px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    text-align:center;
+}
+
+#closets {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100vh;
+    width: 100%;
+    background: url('/img/closets.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#cabinets {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100vh;
+    width: 100%;
+    background: url('/img/cabinet.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#footer {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100vh;
+    width: 100%;
+    background: url('/img/footer.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #82b98f;
+}
+
+h3 {
+    margin:0 !important;
+    padding:0 !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    font-style:italic;
+    transition: all ease-in-out 0.25s;
+}
+
+a:hover {
+    border-bottom: 3px solid #333;
+    transition: all ease-in-out 0.25s;
+    cursor:pointer;
+}
+
+a.whitelink {
+    font-style:normal;
+    color:#ffffff;
+    position:absolute;
+    bottom:15px;
+    font-size:3rem;
+}
+
+a.whitelink:hover {
+    border-bottom:0;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(130,185,143);
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(130,185,143, 0.3);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .text-center, .hero {
+        background-attachment:scroll !important;
+        background-position:left top !important;
+        padding:10px;
+        min-height:100vh;
+    }
+    .hero {
+        background-size:300%;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-size:2rem;   
+    }
+    p,a,a:hover,a:focus,a:active {
+        font-size:1.4rem;
+        border-bottom:0px;
+    }
+    .logo-sh {
+        max-width:50%;
+        height:auto;
+    }
+    .video-container video {
+    display:none;
+}
+    .video-container {
+    background:url('/img/summerhousebg.jpg');
+    background-size:cover;
+    }
+    .content {
+        position:static;
+        margin-top:10px;
+    }
+    .content-especial {
+        position:static;
+        margin-top:50px;
+    }
+    .content-inner {
+    background:rgba(0,0,0,0.7);
+    margin:0 auto;
+    width:90%;
+    padding:15px;
+    }
+    .mobile-movement {
+        min-height:100vh !important;
+        height:auto !important;
+    }
+    a.whitelink {
+        display:none !important;
+    }
+}

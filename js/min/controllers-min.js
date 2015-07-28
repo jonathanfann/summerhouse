@@ -1,0 +1,1 @@
+var summerApp=angular.module("summerApp",["ngRoute"]);summerApp.config(["$routeProvider",function(e){e.when("/",{templateUrl:"pages/home.html"}).when("/about",{templateUrl:"pages/about.html"}).otherwise({redirectTo:"/"})}]),summerApp.controller("summerController",function(e,r,o){e.scrollTo=function(e){r.hash(e),o()}});
