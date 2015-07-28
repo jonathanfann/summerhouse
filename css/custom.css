@@ -79,6 +79,63 @@
     background-size:cover;
 }
 
+.special-betsy {
+    min-height:650px;
+    height:100vh;
+    width:100%;
+    text-align:center;
+    background-image:url('/img/betsy.jpg');
+    background-attachment:fixed;
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #fff;
+}
+
+.special {
+    min-height:650px;
+    height:100vh;
+    width:100%;
+    text-align:center;
+    background-image:url('/img/helen.jpg');
+    background-attachment:fixed;
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #fff;
+}
+
+.content-special {
+    width:500px;
+    max-width:90%;
+    height:100%;
+    position:relative;
+    top:60px;
+    left:60px;
+}
+
+.content-special-betsy {
+    width:650px;
+    max-width:90%;
+    height:100%;
+    position:relative;
+    top:60px;
+    left:60px;
+}
+
+.content-inner-special-betsy {
+    margin:0 auto;
+    width:100%;
+    padding:20px;
+}
+
+.content-inner-special {
+    background:rgba(0,0,0,0.7);
+    margin:0 auto;
+    width:100%;
+    padding:20px;
+}
+
 #surfaces {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -283,6 +340,27 @@ a.whitelink:hover {
 }
 
 @media (max-width:600px) {
+    #betsy {
+        height:auto;
+        background:#f6f6f7;
+        color:#333333;
+    }
+    
+    #helen {
+        height:auto;
+        background:#333333;
+        color:#f6f6f7;
+    }
+    
+    .content-special-betsy, .content-special {
+        position:static;
+        margin:0 auto;
+    }
+    
+    .content-inner-special {
+        background:transparent;   
+    }
+    
     .text-center, .hero {
         background-attachment:scroll !important;
         background-position:left top !important;
