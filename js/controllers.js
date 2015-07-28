@@ -1,6 +1,6 @@
 // create the module and name it summerApp
     var summerApp = angular.module('summerApp', ['ngRoute']);
-	summerApp.config( ['$routeProvider', function($routeProvider) {
+	summerApp.config( ['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 		$routeProvider
 			.when('/', {
 				templateUrl: 'pages/home.html'
@@ -11,6 +11,7 @@
 			.otherwise({
 				redirectTo: '/'
 			});
+        $locationProvider.hashPrefix('!');
 	}]);
 
     // create the controller and inject Angular's $scope

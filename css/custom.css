@@ -98,7 +98,6 @@
     width:100%;
     text-align:center;
     background-image:url('/img/helen.jpg');
-    background-attachment:fixed;
     background-position:top center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -352,9 +351,15 @@ a.whitelink:hover {
         color:#f6f6f7;
     }
     
-    .content-special-betsy, .content-special {
+    .content-special {
         position:static;
         margin:0 auto;
+    }
+    
+    .content-special-betsy {
+        position:static;
+        margin:0 auto;  
+        padding-top:80px;
     }
     
     .content-inner-special {
